@@ -1,8 +1,9 @@
+#! /usr/bin/env node
+
 'use strict'
 
 const axios = require('axios')
 const { ArgumentParser } = require('argparse')
-require('dotenv').config()
 
 const parser = new ArgumentParser({
     description: 'GitHub Repo Creation Automation'

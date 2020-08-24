@@ -17,3 +17,5 @@
 ## Example
 
 `node github-create.js -n=REPO_NAME -p=true -d=XYZ -l=mit -i=true -g=nanoc`
+
+![usage](./assets/generated_repo.png)

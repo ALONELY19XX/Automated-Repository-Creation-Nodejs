@@ -1,7 +1,7 @@
 # Automate GitHub Repo Creation with Nodejs
 ## Installation
 1. `git clone git@github.com:ALONELY19XX/Automated-Repository-Creation-Nodejs.git`
-2. `cd <path/to/repo>
+2. `cd <path/to/repo>`
 3. `npm install`
 4. create a [GitHub Acces Token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token) (GHAT) and check the following scope(s):
 

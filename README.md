@@ -7,8 +7,9 @@
 
 ![GitHub Acces Token -  Needed scope(s)](./assets/scopes.png)
 
-5. Store your generated GHAT in a environment variable `GITHUB_PERSONAL_ACCESS_TOKEN` (use same name!). You can simply create an `.env` file inside the root of the cloned repository and insert `GITHUB_PERSONAL_ACCESS_TOKEN=732462bdfshv8734fhj` (replace 73246bd... with your token)
-6. run `node github-create.js -n=REPO_NAME ...`
+5. Store your generated GHAT in a environment variable `GITHUB_PERSONAL_ACCESS_TOKEN` (use same name!). If you're using zsh simply use   
+`echo 'export GITHUB_PERSONAL_ACCESS_TOKEN=YOUR-TOKEN' >> ~/.zshenv` where you replace `YOUR-TOKEN` with your generated GHAT
+6. run `node github-create.js -n=REPO_NAME ...` (You can run it without the node command if shebang '#! /usr/bin/env node' can resolve on your maschine)
 
 ## Usage
 
